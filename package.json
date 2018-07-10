@@ -1,0 +1,45 @@
+{
+  "name": "redesign-frontend",
+  "version": "0.0.1",
+  "description": "redesign-frontend step-1",
+  "main": "index.js",
+  "author": "engineering@kitabisa.com",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server -p --progress --color --config=webpack.dev.js --mode development",
+    "build": "webpack -p --config=webpack.prod.js --display-error-details"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.5",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.0.1",
+    "extract-css-chunks-webpack-plugin": "^3.0.6",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.9.1",
+    "optimize-css-assets-webpack-plugin": "^4.0.3",
+    "postcss": "^6.0.23",
+    "postcss-import": "^11.1.0",
+    "postcss-loader": "^2.1.5",
+    "postcss-preset-env": "^5.2.1",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.3"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "eslint-loader": "^2.0.0",
+    "jquery": "^3.3.1"
+  }
+}
